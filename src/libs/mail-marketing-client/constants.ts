@@ -1,0 +1,4 @@
+const MEMBER_STATUS = 'subscribed';
+const UPDATE_EXISTING_MEMBERS = true;
+
+export { MEMBER_STATUS, UPDATE_EXISTING_MEMBERS };
