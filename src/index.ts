@@ -20,7 +20,7 @@ const { contactsApiClient, mailMarketingClient } = buildClients();
 app.use(bodyParser.json());
 
 app.get(
-  '/',
+  '/contacts/sync',
   asyncHandler(async (_req: Request, res: Response) => {
     const apiResponse = await syncContacts(
       listId,
