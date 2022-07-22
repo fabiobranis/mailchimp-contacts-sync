@@ -59,4 +59,8 @@ I suggest you to run docker using an env file in order to prevent that boring lo
 
 ![Components](design/component-diagram.png 'Components Diagram')
 
-![Sequence](design/sequence-diagram.png'Sequence Diagram')
+Above we have described the components of this project.
+
+![Sequence](design/sequence-diagram.png 'Sequence Diagram')
+
+Above we have described the sequence diagram of this project.
