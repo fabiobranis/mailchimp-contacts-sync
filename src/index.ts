@@ -6,6 +6,7 @@ import { AppContainer } from './types';
 import { ConfigurationError } from './errors';
 import { mailMarketingClientBuilder } from './libs/mail-marketing-client';
 import { syncContacts } from './services/sync-contacts.service';
+import { errorMiddleware } from './middlewares';
 
 const app: Express = express();
 const port: number | string = process.env.PORT ?? 3000;
@@ -32,6 +33,8 @@ app.get(
     res.send(apiResponse);
   })
 );
+
+app.use(errorMiddleware);
 
 app.listen(port);
 
