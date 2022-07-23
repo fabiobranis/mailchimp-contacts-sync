@@ -2,6 +2,12 @@
 
 ### _The best way to send contacts, to my list..._
 
+Explaining the application:
+
+<div style="position:relative;width:fit-content;height:fit-content;">
+    <iframe allowfullscreen style="border:none" src="https://clipchamp.com/watch/z4Qtk3e1nXa/embed" width="640" height="360"></iframe>
+</div>
+
 ## Where is this app?
 
 [Here...](https://mailchimp-contact-integration.herokuapp.com/contacts/sync).
