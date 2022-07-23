@@ -4,9 +4,7 @@
 
 Explaining the application:
 
-<div style="position:relative;width:fit-content;height:fit-content;">
-    <iframe allowfullscreen style="border:none" src="https://clipchamp.com/watch/z4Qtk3e1nXa/embed" width="640" height="360"></iframe>
-</div>
+[![IMAGE ALT TEXT HERE](/design/vs-code-thumb.png)](https://clipchamp.com/watch/z4Qtk3e1nXa/embed)
 
 ## Where is this app?
 
