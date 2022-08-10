@@ -1,16 +1,14 @@
 # Mailchimp contact integration API
 
-### _The best way to send contacts, to my list..._
+This is a repo to show off some design skills in TypeScript. The idea here is to show how I think about shared libs in a repo, exposing third party API's or clients whithout coupling the code in a way that when you need to change something the jobs is going to be harder.
+For every class I have a function called builder, which is a builder and can be intepreted as a service provider, so whenever you need to import the class you can import the provider to build with the dependencies (you need to pass the arguments described in the interface).
+The layers are simple and clear, with exported interfaces in order to simplify the use. 
+The service is a delegator, inside the service we have the jobs and these jobs are intended to act like steps. The functions should be pure functions and pretty testable without a lot of mocks.
+The idea here is, componentization can be clear and can help any kind of team to figure out properly when something breaks. Also, when you have more than one person working in something, if you break things like this you can define the interfaces in a way that you can paralelize work in a sprint without pain.
 
-Explaining the application:
+“Bad programmers worry about the code. Good programmers worry about data structures and their relationships.” - Linus Torvalds
 
-[![IMAGE ALT TEXT HERE](/design/vs-code-thumb.png)](https://clipchamp.com/watch/z4Qtk3e1nXa/embed)
-
-## Where is this app?
-
-[Here...](https://mailchimp-contact-integration.herokuapp.com/contacts/sync).
-
-Be careful, that's the endpoint.
+When you design something proiperly, thinking about good encapsulation, testability, easy to track errors, task breaking and how to share the tasks properly with the team, you are on the right path to be suscessful, that's what I think.
 
 ## About
 
